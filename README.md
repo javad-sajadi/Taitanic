@@ -9,6 +9,16 @@ An end-to-end Machine Learning and exploratory data analysis pipeline predicting
 
 ---
 
+## 📊 Exploratory Data Analysis & Survival Demographics
+
+Below is the multi-panel demographic and feature disparity analysis generated across the historical training cohort:
+
+![Titanic Exploratory Data Analysis](titanic_eda_visualizations.png)
+
+*Key analytical insights: Marked survival disparities by gender (74.2% female vs 18.9% male), socioeconomic stratification across passenger classes (63.0% 1st class vs 24.2% 3rd class), bimodal child/elderly survival distributions, and optimal survival rates for small family units ($2 \dots 4$).*
+
+---
+
 ## 📌 Project Overview
 
 This repository demonstrates rigorous exploratory data analysis (EDA), predictive feature engineering, and cross-validated machine learning modeling on tabular historical passenger data.
@@ -61,13 +71,14 @@ jupyter notebook Titanic.ipynb
 ```
 .
 ├── titanic/
-│   ├── train.csv             # Kaggle training dataset (891 passenger records)
-│   ├── test.csv              # Kaggle test evaluation dataset (418 records)
-│   └── gender_submission.csv # Baseline gender benchmark submission
-├── Titanic.ipynb             # Interactive exploratory data analysis & experiments
-├── titanic_pipeline.py       # Production-ready CLI pipeline with CV benchmarking
-├── requirements.txt          # Python dependencies
-└── .gitignore                # Git ignore configuration
+│   ├── train.csv                      # Kaggle training dataset (891 passenger records)
+│   ├── test.csv                       # Kaggle test evaluation dataset (418 records)
+│   └── gender_submission.csv          # Baseline gender benchmark submission
+├── Titanic.ipynb                      # Interactive exploratory data analysis & experiments
+├── titanic_pipeline.py                # Production-ready CLI pipeline with CV benchmarking
+├── titanic_eda_visualizations.png     # Multi-panel demographic exploratory visualization preview
+├── requirements.txt                   # Python dependencies
+└── .gitignore                         # Git ignore configuration
 ```
 
 ---
